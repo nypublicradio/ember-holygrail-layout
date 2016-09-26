@@ -18,7 +18,7 @@ A component and CSS for generating ["holy grail" layouts](https://philipwalton.g
   {{#g.right}}
     right side, width determined by content
   {{/g.right}}
-  
+
 {{/holygrail-layout}}
 ```
 

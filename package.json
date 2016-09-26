@@ -1,7 +1,7 @@
 {
   "name": "ember-holygrail-layout",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A component and CSS for holygrail layouts in your ember app.",
   "directories": {
     "doc": "doc",
     "test": "tests"
