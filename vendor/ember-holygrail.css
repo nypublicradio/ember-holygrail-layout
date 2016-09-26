@@ -1,0 +1,23 @@
+.ember-holygrail {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 auto;
+}
+
+.ember-holygrail .ember-holygrail-middle {
+  flex-direction: row;
+  flex: 1;
+}
+
+
+.ember-holyrail .ember-holygrail-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ember-holygrail .l-holygrail-right,
+.ember-holygrail .l-holygrail-left {
+  display: flex;
+  flex: 0 0 auto;
+}

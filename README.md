@@ -1,6 +1,26 @@
-# Ember-holygrail-layout
+# ember-holygrail-layout
 
-This README outlines the details of collaborating on this Ember addon.
+A component and CSS for generating ["holy grail" layouts](https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/) in your ember app.
+
+## Usage
+
+```handlebars
+{{#holygrail-layout as |g|}}
+
+  {{#g.left}}
+    left side, width determined by content
+  {{/g.left}}
+  
+  {{#g.center}}
+    middle, width determined by leftover space
+  {{/g.center}}
+
+  {{#g.right}}
+    right side, width determined by content
+  {{/g.right}}
+  
+{{/holygrail-layout}}
+```
 
 ## Installation
 
