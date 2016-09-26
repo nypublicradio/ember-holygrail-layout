@@ -10,14 +10,14 @@
 }
 
 
-.ember-holyrail .ember-holygrail-centered {
+.ember-holygrail .ember-holygrail-centered {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.ember-holygrail .l-holygrail-right,
-.ember-holygrail .l-holygrail-left {
+.ember-holygrail .ember-holygrail-right,
+.ember-holygrail .ember-holygrail-left {
   display: flex;
   flex: 0 0 auto;
 }
