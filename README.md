@@ -1,6 +1,8 @@
 # ember-holygrail-layout
 
-A component and CSS for generating ["holy grail" layouts](https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/) in your ember app.
+The ["holy grail" layout](https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/) as described in the linked to article includes a page header and footer, but this is more of a holy grail lite. It provides a component which yields an object with three blocks which can be used for a three column layout in which the left and right columns are a fixed width as determined by their content and the middle column is flexible based on the remaining pixels.
+
+This provides some simple markup and bundles some CSS into your app.
 
 ## Usage
 
@@ -21,6 +23,36 @@ A component and CSS for generating ["holy grail" layouts](https://philipwalton.g
 
 {{/holygrail-layout}}
 ```
+
+## Included CSS
+
+```CSS
+.ember-holygrail {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 auto;
+}
+
+.ember-holygrail .ember-holygrail-middle {
+  flex-direction: row;
+  flex: 1;
+}
+
+
+.ember-holygrail .ember-holygrail-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ember-holygrail .ember-holygrail-right,
+.ember-holygrail .ember-holygrail-left {
+  display: flex;
+  flex: 0 0 auto;
+}
+```
+
+Ember's build process will run these rules through whatever pre-processors your app is using. You should extend these selectors based on your app's specific use-cases.
 
 ## Installation
 
