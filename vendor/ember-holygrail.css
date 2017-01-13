@@ -21,3 +21,8 @@
   display: flex;
   flex: 0 0 auto;
 }
+
+
+.ember-holygrail .ember-holygrail-left:only-child {
+  flex-basis: 100%;
+}
