@@ -58,8 +58,7 @@ Ember's build process will run these rules through whatever pre-processors your 
 
 * `git clone <repository-url>` this repository
 * `cd ember-holygrail-layout`
-* `npm install`
-* `bower install`
+* `yarn install`
 
 ## Running
 
@@ -68,7 +67,7 @@ Ember's build process will run these rules through whatever pre-processors your 
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
+* `yarn test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
@@ -76,4 +75,4 @@ Ember's build process will run these rules through whatever pre-processors your 
 
 * `ember build`
 
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
