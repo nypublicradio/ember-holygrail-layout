@@ -1,6 +1,6 @@
 {
   "name": "ember-holygrail-layout",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "A component and CSS for holygrail layouts in your ember app.",
   "keywords": [
     "ember-addon"
