@@ -1,5 +1,9 @@
 # Changelog for `ember-holygrail-layout`
 
+## v0.4.1
+
+- [BUGFIX] update deprecated `hasBlock` with `has-block` helper
+
 ## v0.4.0
 
 - [ENHANCEMENT] upgrade to ember 3.3
