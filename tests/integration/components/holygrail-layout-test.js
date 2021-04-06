@@ -22,5 +22,23 @@ module('Integration | Component | holygrail layout', function(hooks) {
     `);
 
     assert.dom(this.element).hasText('template block text');
+
+    // Template block usage:
+    await render(hbs`
+      {{#holygrail-layout as |g|}}
+        {{#g.center}}
+          center text
+        {{/g.center}}
+        {{#g.left}}
+          left text
+        {{/g.left}}
+        {{#g.right}}
+          right text
+        {{/g.right}}
+      {{/holygrail-layout}}
+    `);
+    assert.dom('.ember-holygrail-centered').hasText('center text');
+    assert.dom('.ember-holygrail-left').hasText('left text');
+    assert.dom('.ember-holygrail-right').hasText('right text');
   });
 });
