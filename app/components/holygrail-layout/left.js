@@ -1,0 +1,1 @@
+export { default } from 'ember-holygrail-layout/components/holygrail-layout/left';
